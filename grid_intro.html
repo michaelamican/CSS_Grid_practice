@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Broken Grid CSS Demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./grid_intro_style.css">
+        <!-- <style>
+            *{
+                margin: 0;
+                padding: 0;
+                border: 0;
+            }
+            #wrapper{
+                display: grid;
+                /* grid-template-columns: 100px 100px 100px; */
+                /* grid-template-columns: 50% 10% 20%; */
+                grid-template-columns: 1fr 3fr 2fr; /* relational "fractional units." 1fr 2fr 1fr works! */
+                grid-template-rows: 2fr 1fr; /*If you define the height within the rows, it overrides the height of .box below */
+                grid-row-gap: 2px;
+                grid-column-gap: 5px;
+                /*grid-gap: 10px; sets grid gap evenly.*/
+            }
+            /* .box{
+                height: 500px;
+            } */
+            .one{
+                background: rebeccapurple;
+            }
+            .two{
+                background: dodgerblue;
+            }
+            .three{
+                background: goldenrod;
+            }
+        </style> -->
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="box one"></div>
+            <div class="box two"></div>
+            <div class="box three"></div>
+            <div class="box one"></div>
+            <div class="box two"></div>
+            <div class="box three"></div>
+        </div>
+    </body>
+</html>
